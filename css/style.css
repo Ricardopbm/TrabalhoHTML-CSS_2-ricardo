@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+  padding: 5px;
+  gap: 5px;
+}
+figcaption {
+  text-align: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+footer p {
+  font-size: 1.5rem;
+}
+header h1 {
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  padding: 0.25rem 0;
+}
+nav ul li:hover {
+  background-color: darkgrey;
+}
+nav ul li a:hover {
+  color: white;
+}
+h2 {
+  text-align: center;
+}
+.produtos {
+  display: flex;
+  flex-direction: column;
+}
+.produtos-linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.promocao {
+  background-color: red;
+  width: 30%;
+  align-self: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.promocao p {
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
